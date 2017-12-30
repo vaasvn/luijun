@@ -32,7 +32,7 @@ function kiusi(){
   console.log('----XONG0--------');
   setTimeout(async () => await await page.close(), 67000);
   setTimeout(async () => await browser.close(), 75000);
-  console.log('----XONG--------');
+  console.log('----XONG-------');
   
   })();
 }
