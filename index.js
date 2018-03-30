@@ -28,10 +28,10 @@ function kiusi(){
   const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
   
   const page = await browser.newPage();
-  await page.goto('https://cnhv.co/11boz'); 
+  await page.goto('www.adzbux.com/promote7.php?ref=biboucuongoc1102'); 
   console.log('----XONG0--------');
-  setTimeout(async () => await await page.close(), 70000);
-  setTimeout(async () => await browser.close(), 80000);
+  setTimeout(async () => await await page.close(), 20000);
+  setTimeout(async () => await browser.close(), 30000);
   console.log('----XONG--------');
   
   })();
@@ -43,7 +43,7 @@ function f() {
     console.log('-111111111111-------trong f -----------');
     kiusi();
     console.log(Date()); 
-    setTimeout( f, 120000 ); 
+    setTimeout( f, 40000 ); 
     console.log('--tttttttttt--') 
 }
 
