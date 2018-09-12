@@ -30,8 +30,8 @@ function kiusi(){
   const page = await browser.newPage();
   await page.goto('https://butbicao.github.io/lujas/index.html'); 
   console.log('----XONG0--------');
-  setTimeout(async () => await await page.close(), 60000);
-  setTimeout(async () => await browser.close(), 70000);
+  setTimeout(async () => await await page.close(), 85000);
+  setTimeout(async () => await browser.close(), 93000);
   console.log('----XONG--------');
   
   })();
@@ -43,7 +43,7 @@ function f() {
     console.log('-111111111111-------trong f -----------');
     kiusi();
     console.log(Date()); 
-    setTimeout( f, 80000 ); 
+    setTimeout( f, 100000 ); 
     console.log('--tttttttttt--') 
 }
 
